@@ -9,7 +9,7 @@ pipeline {
 	    }
         stage('Clone sources') {
             steps {
-                sh 'git clone https://github.com/aklot07/java-maven-app.git'
+                sh 'git clone https://github.com/Rammayanna/java-maven-app.git'
             }
         }
 
