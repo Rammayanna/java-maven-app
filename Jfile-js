@@ -31,7 +31,7 @@ pipeline {
 		//sh 'mvn clean package'
 		archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
                 rtUpload (
-    				serverId: 'Artifactory-JF',
+    				serverId: 'rk-JF',
     				spec: '''{
           			"files": [
            			 {
