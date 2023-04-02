@@ -27,7 +27,7 @@ pipeline {
 
             steps {
 		dir ('java-maven-app'){ 
-		//sh 'touch ak'
+		//sh 'touch rk'
 		//sh 'mvn clean package'
 		archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
                 rtUpload (
